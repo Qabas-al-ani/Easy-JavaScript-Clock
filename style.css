@@ -71,7 +71,7 @@ body {
   border-radius: 50%;
 }
 
-.hr:before {
+.hour:before {
   content: "";
   position: absolute;
   width: 8px;
@@ -81,4 +81,22 @@ body {
   z-index: 10;
 }
 
+.minute:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 90px;
+  background: rgb(27, 25, 25);
+  z-index: 11;
+  border-radius: 6px 6px 0 0;
+}
 
+.second:before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 150px;
+  background: rgb(34, 30, 30);
+  z-index: 11;
+  border-radius: 6px 6px 0 0;
+}
